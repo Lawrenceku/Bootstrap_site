@@ -1,0 +1,153 @@
+*{
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+    }    
+    ::-webkit-scrollbar{
+        width:7px;
+        }
+        ::-webkit-scrollbar-track{
+        background:rgb(19, 19, 19);
+        }
+        ::-webkit-scrollbar-thumb{
+        background:#888;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+        background:white;
+        }
+        .carousel-indicators{
+        }
+/*////////////////////////MOBILE//////////////////////////////*/
+   @media only screen and (max-width: 600px) {
+   #menu{
+    display: flex;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: space-between;
+   }
+   #hero_section{
+      display: flex;
+   }
+   #header{
+       height: 50vh;
+   }
+   #logo_text{
+       font-size: 2vh;
+       font-weight: bold;
+       font-family: poppins;
+       margin-left:-20vw;
+       white-space: nowrap;
+   }
+   #logo{
+    height: 10%;
+    width: 10%;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: -15%;
+   }
+ 
+.home{
+    text-align: right;
+    flex: 1;
+    font-size:1.5vh ;
+}
+.about{
+    text-align: center;
+    font-size:1.5vh ;
+    flex: 1;
+}
+.online_giving{
+    text-align: center;
+    flex: 1;
+    font-size:1.5vh ;
+   
+}
+.notifications{
+    text-align: right;
+    flex:1;
+    font-size:1.5vh ;
+}
+
+   .carousel-inner img {
+       width: 100%; 
+      height: 100%; 
+    }
+    .carousel-inner{
+    height:100vh;
+    width:auto;
+    }
+    #myCarousel{
+     width: 100%;
+     height: 100vh;
+     margin-top: 10%;
+    }
+    .carousel-indicators{
+
+    }
+    }
+
+    /*////////////////////////////desktop///////////////////////////////////*/
+    @media only screen and (min-width: 600px) {
+    #menu{
+     display: flex;
+     margin-top: 5%;
+     align-items: center;
+     grid-template-columns: repeat(7, 10%);
+    }
+    #hero_section{
+       display: flex;
+    }
+    #header{
+        height: 50vh;
+    }
+    #logo_text{
+        font-size: large;
+        font-weight: bold;
+        font-family: poppins;
+        margin-top: 2%;
+        margin-left: 1%;
+        flex:0.8;   
+        white-space: nowrap;
+    }
+    #logo{
+        height: 5%;
+        width: 5%;
+    }
+    .home{
+        font-size:2vh ;
+        margin-left: 10%;
+       
+    }
+    .about{
+        font-size:2vh ;
+        margin-left: 10%;
+       
+    }
+    .online_giving{
+        white-space: nowrap;
+        font-size:2vh ;
+        margin-left: 10%;
+        
+    }
+    .notifications{
+        font-size:2vh ;
+        margin-left: 10%;
+    }
+    .carousel-inner img {
+        width: 100%; 
+       height: 100%; 
+     }
+     .carousel-inner{
+     height:100vh;
+     width:auto;
+     }
+     #myCarousel{
+      width: 100%;
+      height: 100vh;
+      margin-top: 5%;
+     }
+     .carousel-indicators{
+
+     }
+    }
+     
+    
